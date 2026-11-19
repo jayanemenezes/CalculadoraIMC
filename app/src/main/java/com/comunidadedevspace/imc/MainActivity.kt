@@ -40,9 +40,7 @@ class MainActivity : AppCompatActivity() {
                 val alturaQ2 = altura * altura
                 val resultado = peso / alturaQ2
 
-                //navegar para a proxima tela
-                //criar o layout da proxima tela
-                //passar dados para proxima tela (resultado)
+
 
                 val intent = Intent(this, ResultActivity::class.java)
                 intent.putExtra( KEY_RESULT_IMC , resultado)
@@ -50,6 +48,8 @@ class MainActivity : AppCompatActivity() {
 
 
                 println("Roque acao do botao" + resultado)
+
+
             }
 
 
